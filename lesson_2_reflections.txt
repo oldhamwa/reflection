@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git sets up the infra-structure for a repository.  Because like many programs git needs a way to organize your info.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Files are not yet in the repository but they have been "marked" as special file.  When it comes to your respository it's good to "take your time" and carefully plan what you're doing.
