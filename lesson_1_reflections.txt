@@ -1,0 +1,19 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+As a human I make lots of mistakes having a tool to spot differences in code keeps me out of trouble and I do mean big trouble.
+
+Sometimes you forgot that code contains dependencies and so you make a what you think is a minor change and forget about and then when you have a problem you don't think about the "minor" change unit the diff tool points out the difference and this triggers something that makes you remember the old dependency.
+
+Why do some version control systems allow multiple file while other don't?
+
+Git was designed right from the beginning to support SW version control, SW typically has multiple files for a project so supporting multiple files a is fundamental requirement, goggle doc's is designed for reports and presentation which typically one require one document so supporting multiple files is not a fundamental requirement.
+
+How can you use the commands git log and git diff to view the history of files?
+You use log to get an idea of the changes that were made and then use diff to look at the specific changes
+
+How might using version control make you more confident to make changes that could break something?
+
+I would make more confident that any problems caused could be easily fixed.  But I should still be careful and should still check and test changes before checking them in.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to be able to use it to track/save personal python scripts i write
