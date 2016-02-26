@@ -3,3 +3,45 @@ git add
 git status
 staging area
 working directory
+git log
+git checkout master  << revert back to master after having checked out earlier versions
+
+git diff --staged << compared staged files to master
+
+git reset --hard  << reset to the master  !!! Be careful can lose changes that were not 
+
+git diff                    <<< compare working to staged
+git diff --staged           <<< staged to repository
+git diff commit1 commit2    <<< compare commit1 (latest) to commit2 a previous commit
+
+git branch << no agrument shows only active branch master
+
+Switching to branch easy-mode
+WOldham (master) asteroids $ git checkout easy-mode
+Switched to branch 'easy-mode'
+WOldham (easy-mode) asteroids $ git branch
+* easy-mode
+  master
+WOldham (easy-mode) asteroids $
+
+remote branch <<< someone else created it
+
+git log --graph --oneline   <<< graphical via of versions
+
+WOldham (coins) asteroids $ git log --graph --oneline master coins
+
+* c3c1b6a Add delay back to bullets, fix shooting speed bug
+* 3884eab Add color
+* 3e42136 now using requestAnimationFrame
+* 4035769 frame interval was set wrong after game was paused
+* 25ede83 a couple missing ends with the ipad version
+* df03538 I can't spell 'screen' apparently :)
+| * 354dfdd Make ships able to spawn on coins
+| * 0c6daf1 Make it possible to collect coins
+| * a3c0ae4 Create helper functions
+| * 656b02e First pass at adding coins
+|/
+* b0678b1 Revert controls
+* f19cb1b Fix typo in space
+* 75928a9 Use space for movement and enter for shooting
+

@@ -4,3 +4,21 @@ Git sets up the infra-structure for a repository.  Because like many programs gi
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Files are not yet in the repository but they have been "marked" as special file.  When it comes to your respository it's good to "take your time" and carefully plan what you're doing.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+o If you only want to commit one change then use the git diff --staged and make sure
+it only shows one file with changes
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    o need a clean copy code for production so have special branch where only minimal changes are made
+    o if need to have major difference in functionality it's nice to keep supporting the new functionality simple until there is a good reason to merge it back with original branch
+    o plus it's nice to be able to trace roots of code base
+
+
+How do the diagrams help you visualize the branch structure?
+    o they show the tip and its parents and the relationship to other branches if they exist
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- It is the "sum" of the changes in the the two branches both additions and subtractions.  They are represented as branches because they "grow" as changes are made until development stops or they are merged with another branch    
