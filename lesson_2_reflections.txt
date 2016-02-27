@@ -22,3 +22,7 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - It is the "sum" of the changes in the the two branches both additions and subtractions.  They are represented as branches because they "grow" as changes are made until development stops or they are merged with another branch    
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    o Automatic for simple changes is nice because it saves you a lot of time and make it "easy" for multiple people to work on the same source efficiently while not having to worry about stepping on each other changes.
