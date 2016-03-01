@@ -1,3 +1,7 @@
 add some content to the file on github
 
 When would you want to use a remote repository rather than keeping all your work local?
+o It is handy for "backing up" my local copy or to make it easy to share with someone else and being able to access from multiple computers.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+o You wouldn't want to lose local changes
