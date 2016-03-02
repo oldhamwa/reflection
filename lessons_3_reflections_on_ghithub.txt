@@ -5,3 +5,7 @@ o It is handy for "backing up" my local copy or to make it easy to share with so
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 o You wouldn't want to lose local changes
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+o a fork is a like a clone
+o branch start a "new" development
