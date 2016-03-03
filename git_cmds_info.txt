@@ -45,3 +45,11 @@ WOldham (coins) asteroids $ git log --graph --oneline master coins
 * f19cb1b Fix typo in space
 * 75928a9 Use space for movement and enter for shooting
 
+github
+
+git remote   <<< show info about remote repository on github for examples
+
+git pull origin master ===> git fetch origin
+                            git merge master origin/master
+
+
