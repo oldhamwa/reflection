@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 o I maybe on someone elses computer
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+o You can work on the most recent version of the code even if you don't have network connection
