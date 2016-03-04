@@ -52,4 +52,33 @@ git remote   <<< show info about remote repository on github for examples
 git pull origin master ===> git fetch origin
                             git merge master origin/master
 
+Forking process
+
+on local machine make a new branch
+    git branch different-oil
+    
+switch to the new branch
+    git checkout different-oil
+    
+make changes
+    change oil typle
+
+commit change 
+    git add
+    git commit
+    
+push changes to github
+    git push origin different-oil
+    
+change not in master so low risk
+    go to github and notice we have two branches
+    
+pull request
+    checkout different-oil branch
+    got down to pull request button
+    change base to my own fork NOT Larry's
+
+    Why pull request?  Because it's a request to owner of branch to pull-in changes.
+    
+
 
