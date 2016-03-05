@@ -3,3 +3,8 @@ o I maybe on someone elses computer
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 o You can work on the most recent version of the code even if you don't have network connection
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+o When you don't want to mess up the master.
+o When merge in changes to the master and you want to make a pull request
